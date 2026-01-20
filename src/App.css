@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 15px 40px;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Nav links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav item */
+.nav-links li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.nav-links li:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Icon */
+.icon {
+  font-size: 18px;
+}
+
+/* Active */
+.nav-links .active {
+  background-color: black;
+  color: rgb(230, 226, 226);
+}
+
+/* Content */
+.content {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Active item */
+.nav-links .active {
+  font-weight: bold;
+}
+
+/* Page content */
+.content {
+  margin-top: 120px; /* space below fixed navbar */
+  text-align: center;
+  font-size: 32px;
+  color: black;
+}
