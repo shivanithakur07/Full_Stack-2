@@ -1,16 +1,21 @@
-# React + Vite
+Objective:
+The objective of this project is to develop a simple React application that demonstrates the use of reusable components, a fixed navigation bar, and icon integration. The project focuses on creating a clean and user-friendly Contact page while applying core React concepts such as JSX, component structure, and CSS styling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tools Used:
+The tools used in this project include Visual Studio Code for code editing, Node.js and npm for package management, and a modern web browser for testing and debugging the application.
 
-Currently, two official plugins are available:
+Software Used:
+The software used for this project includes React for building the user interface, JavaScript (ES6) for application logic, CSS for styling, and the react-icons library for adding icons to the navigation bar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Learning Outcomes:
+Through this project, the following learning outcomes were achieved:
 
-## React Compiler
+Understanding the fundamentals of React components and JSX
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Learning how to create and style a fixed navigation bar
 
-## Expanding the ESLint configuration
+Gaining experience using third-party libraries such as react-icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Improving knowledge of CSS styling and layout positioning
+
+Understanding basic project structure in a React application
